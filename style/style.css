@@ -1,0 +1,78 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+.link-hover:hover {
+   color: #007bfa;
+   cursor: pointer;
+}
+.header .navbar-brand img {
+   width: 270px;
+   height: 64px;
+}
+.header .card img {
+   width: 64px;
+   height: 64px;
+}
+.header .card .card-body {
+   font-size: 13px;
+}
+.header .card .card-body .bi {
+   color: red;
+   font-weight: 600;
+}
+/* navbar section  */
+.navbar {
+   background-color: #fff;
+}
+.navbar .navbar-nav .nav-link {
+   color: #000;
+   font-size: 15px;
+}
+.navbar .navbar-nav .nav-link:hover {
+   color: #007bfa;
+}
+.navbar .icoe .nav-link {
+   border-right: 2px solid silver;
+   padding: 0 10px;
+}
+.navbar .icoe .first-border {
+   border-left: 2px solid silver;
+}
+.navbar .icoe .nav-link .bi {
+   font-size: 20px;
+   color: #333;
+}
+.navbar .icoe .nav-link:hover .bi {
+   color: #007bfa;
+}
+.icon-footer-img {
+   width: 128px;
+   height: 40px;
+   border: 1px solid silver;
+   border-radius: 5px;
+   padding: 2px;
+   margin: 0 4px;
+}
+
+.icon-footer {
+   width: 28px;
+   height: 28px;
+   border-radius: 50%;
+   background-color: rgb(236, 235, 235);
+   margin: 0 8px;
+}
+
+/* media query section  */
+@media screen and (max-width: 1199px) {
+   .header .navbar-brand img {
+      width: 154px;
+      height: 48px;
+   }
+}
+@media screen and (min-width: 1000px) {
+   .card-height {
+      height: 450px;
+   }
+}
